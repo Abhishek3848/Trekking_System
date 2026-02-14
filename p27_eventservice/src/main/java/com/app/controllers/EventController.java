@@ -88,7 +88,8 @@ public class EventController {
 				result.add(EventResponseDTO.fromEntity(p));
 			}
 		}
-		
+
+
 		return Response.success(result);
 	}
 	
